@@ -2,3 +2,4 @@ os: linux
 dist: trusty
 script:
  - echo "test"
+ - echo ${some-secret}
